@@ -1,21 +1,21 @@
 
 :root {
-    --primary-red: #b22222;
-    --dark-grey: #2d2d2d;
-    --accent-gold: #c5a059;
+    : #b22222;
+    : #2d2d2d;
+    : #c5a059;
 }
 
 body {
     font-family: 'Times New Roman', serif;
     line-height: 1.6;
-    color: var(--dark-grey);
+    color: var(#333333);
     margin: 0;
     background-color: #f0f0f0;
 }
 
-/* Navigation Menu */
+
 nav {
-    background: var(--dark-grey);
+    background: #333333;
     padding: 1rem;
     position: sticky;
     top: 0;
@@ -40,9 +40,9 @@ nav a {
     transition: 0.3s;
 }
 
-nav a:hover { color: var(--accent-gold); }
+nav a:hover { color: #D4AF37; }
 
-/* Organization Tags (Div & Span) */
+
 .container {
     max-width: 900px;
     margin: 20px auto;
@@ -51,26 +51,26 @@ nav a:hover { color: var(--accent-gold); }
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-.highlight { color: var(--primary-red); font-weight: bold; }
+.highlight { color: var(#C21807; font-weight: bold; }
 
-/* Typography & Pseudo-elements */
+
 h1 { font-size: 3.5rem; text-align: center; margin-bottom: 0; }
 .tagline { text-align: center; font-style: italic; color: #666; margin-top: 5px; }
 
-/* Drop Cap Implementation */
+
 .article-p::first-letter {
     font-size: 4rem;
     font-weight: bold;
     float: left;
     margin-right: 10px;
     line-height: 1;
-    color: var(--primary-red);
+    color: var(#C21807);
     font-family: 'Georgia', serif;
 }
 
-/* Borders & Lists */
+
 .editor-box {
-    border: 2px solid var(--accent-gold);
+    border: 2px solid var(#D4AF37);
     padding: 25px;
     margin: 20px 0;
     background: #fffdf9;
@@ -78,7 +78,7 @@ h1 { font-size: 3.5rem; text-align: center; margin-bottom: 0; }
 
 .ref-list { padding-left: 20px; line-height: 2; }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 30px;
@@ -87,7 +87,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Video Responsive Container */
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
